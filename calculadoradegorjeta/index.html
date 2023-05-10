@@ -16,33 +16,24 @@
 
 <div>
     <form class="tipsform" id="tipsform">
-        <label for="bill">
-            <p>Qual o valor da  conta?</p>
-        </label>
-        <p> R$ <input type = number placeholder="100" name="bill" class="formInput" id="'bill"></p>
-        <label for = "service"
-        <p> Como foi o serviço? </p>
-       </label>
+        <label for="bill">Qual o valor da conta </label><br>
+        <input type = number placeholder="100" name="bill" class="formInput" id="'bill"><br>
+
+        <label for = "service"> Como foi o serviço? </label> <br>
     <select name="service" id="service" class="formSelect">
         <option disable selected>Escolha uma opção</option>
         <option value="0.3">30% Incrível</option>
         <option value="0.2">20% Bom</option>
         <option value="0.1">10% Ruim</option>
         <option value="0.0">0% Péssimo</option>
-    </select>
-    <p>Quantas pessoas vão dividir a conta?</p>
-    <label for ="people"
-   
-        <p> 
-        <input type ="number" placeholder="1" name="people" id="people" class="formInput"> Pessoa(s) </input>  </p>
-    </label>
-
-
+    </select> 
+    <br>
+    <label for ="people">Quantas pessoas vão dividir a conta? </label> <br>
+    <input type ="number" placeholder="1" name="people" id="people" class="formInput"> Pessoa(s) </input>  
+    
     <button type="submit" class="button">Calcular</button>
     </form>
     
-</div>
-
 </div>
 <div  id="totalTip">
     <p>Gorjeta total:</p> 
@@ -50,6 +41,9 @@
     <p id="each">cada</p>
 </div>
 </div>
+
+</div>
+
 <script type="text/javascript" src="script.js"></script>
 </body>
 </html>

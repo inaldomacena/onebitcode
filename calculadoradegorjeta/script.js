@@ -3,7 +3,7 @@
 function calculateTip(event){
   event.preventDefault();
   let bill = document.getElementById('bill').value; 
-  let  service = document.getElementById('service') .value;
+  let  service = document.getElementById('service').value;
   let people = document.getElementById('people').value;
 
 
@@ -25,7 +25,7 @@ if(people == '' | people <= 1){
  
 }
 
-document.getElementById("totalTip").style.display = "none";
-document.getElementById("each").style.display = "none";
+document.getElementById("totalTip").style.display = 'none';
+document.getElementById("each").style.display = 'none';
 
-document.getElementById("tipsform").addEventListener("submit", calculateTip);
+document.getElementById("tipsform").addEventListener("submit",calculateTip);
